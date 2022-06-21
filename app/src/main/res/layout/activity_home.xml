@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.HomeActivity"
+    android:orientation="vertical"
+    android:background="@color/sea_green">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@drawable/card_1"
+        android:elevation="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/app_name"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_notification"
+            android:layout_centerVertical="true"
+
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Your Coupon"
+            android:textSize="26sp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/app_name"
+            android:background="@color/white"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Get Your Coupon"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/searchicon"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:elevation="8dp"
+                android:layout_margin="10dp"
+                >
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/tajmahal"
+                    android:layout_centerInParent="true"
+                    app:shapeAppearanceOverlay="@style/Circular"
+                    app:strokeColor="@color/sea_green"
+                    app:strokeWidth="2dp"
+                    android:scaleType="centerCrop"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Hotels"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:elevation="8dp"
+                android:layout_margin="10dp"
+                >
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/tajmahal"
+                    android:layout_centerInParent="true"
+                    app:shapeAppearanceOverlay="@style/Circular"
+                    app:strokeColor="@color/sea_green"
+                    app:strokeWidth="2dp"
+                    android:scaleType="centerCrop"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Hotels"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:elevation="8dp"
+                android:layout_margin="10dp"
+                >
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/tajmahal"
+                    android:layout_centerInParent="true"
+                    app:shapeAppearanceOverlay="@style/Circular"
+                    app:strokeColor="@color/sea_green"
+                    app:strokeWidth="2dp"
+                    android:scaleType="centerCrop"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Hotels"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:elevation="8dp"
+            android:layout_margin="10dp"
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/tajmahal"
+                android:layout_centerInParent="true"
+                app:shapeAppearanceOverlay="@style/Circular"
+                app:strokeColor="@color/sea_green"
+                app:strokeWidth="2dp"
+                android:scaleType="centerCrop"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Hotels"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:elevation="8dp"
+                android:layout_margin="10dp"
+                >
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/tajmahal"
+                    android:layout_centerInParent="true"
+                    app:shapeAppearanceOverlay="@style/Circular"
+                    app:strokeColor="@color/sea_green"
+                    app:strokeWidth="2dp"
+                    android:scaleType="centerCrop"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Hotels"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="20dp"
+        android:elevation="8dp">
+ <com.afdhal_fa.imageslider.ImageSlider
+     android:layout_width="match_parent"
+     android:layout_height="160dp"
+     app:iss_auto_cycle="true"
+     app:iss_image_scaleType="centerCrop"
+     android:id="@+id/homeImageSlider"
+     app:iss_title_color="@color/blue"
+     app:iss_delay="@integer/material_motion_duration_long_1"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RV_HomeParent"/>
+
+
+
+
+
+</LinearLayout>
